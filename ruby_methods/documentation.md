@@ -14,11 +14,11 @@
 <br>
 <br>
 <br>
+
+## Iterators
+
 <br>
 
-### Iterators
----
-<br>
 When we loop over an array or hash, we say that we iterate over it. Iterators are methods that go through each instance of whatever object we apply it to.
 
 .each: The each iterator applies an expression to each element of an object.  The variable inside the || is just a placeholder name for each element in the object.

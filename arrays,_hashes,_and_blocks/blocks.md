@@ -15,13 +15,12 @@ For example:
 end
 ```
 
-or
+**or**
 
 ```ruby
 1.times { puts "I’m a code block too!" }
 ```
 
-<br>
 <br>
 
 ### Passing Blocks to Methods:

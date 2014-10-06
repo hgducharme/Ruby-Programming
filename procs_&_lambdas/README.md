@@ -41,7 +41,6 @@ numbers.map( &cubed )
 ```
 
 <br>
-<br>
 
 ### Blocks vs. Procs:
 
@@ -70,6 +69,9 @@ numbers_array = [1, 2, 3, 4, 5]
 <br>
 <br>
 <br>
+___
+<br>
+<br>
 <br>
 
 # Lambdas
@@ -96,7 +98,6 @@ strings.collect(&symbolize)
 # ==> [:leonardo, :donatello, :raphel, :michaelangelo]
 ```
 
-<br>
 <br>
 
 ### Lambdas vs. Procs:
@@ -141,6 +142,6 @@ my_array = ["raindrops", :kettles, "whiskers", :mittens, :packages]
 
 symbol_filter = lambda { |x| x.is_a? Symbol }
 symbols = my_array.select(&symbol_filter)
-```
 
-     # ==> [:kettles, :mittens, :packages]
+# ==> [:kettles, :mittens, :packages]
+```

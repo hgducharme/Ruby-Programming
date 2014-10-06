@@ -16,11 +16,9 @@ Calling a method uses syntax like this: `object.method` where you first type the
 
 It starts with the keyword `def`, which is short for define. Methods have three parts:
 
-1) The Header - Includes the `def` keyword, the name of the method, and any arguments the method takes
-
-2) The Body - This is the code block that will be run. It describes the procedures the method carries out
-
-3) End - The method is then closed with the keyword end
+1. The Header - Includes the `def` keyword, the name of the method, and any arguments the method takes
+2. The Body - This is the code block that will be run. It describes the procedures the method carries out
+3. End - The method is then closed with the keyword end
 
 
 
@@ -32,7 +30,6 @@ def method_name
 end
 ```
 
-<br>
 <br>
 
 ### Calling a method:

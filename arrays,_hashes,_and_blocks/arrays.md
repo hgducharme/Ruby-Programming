@@ -14,7 +14,6 @@ example_array = ["String", 5, "Birds", 231, "baseball"]
 ```
 
 <br>
-<br>
 
 ### Accessing Items in an Array:
 

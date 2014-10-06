@@ -21,7 +21,6 @@ end
 ```
 
 <br>
-<br>
 
 ### Name-spacing & Scope Operators:
 

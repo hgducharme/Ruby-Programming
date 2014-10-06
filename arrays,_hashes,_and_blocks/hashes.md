@@ -24,7 +24,6 @@ hash_one = {
 ```
 
 <br>
-<br>
 
 ### Accessing a Hash:
 
@@ -42,7 +41,6 @@ hash_one.each do | key, value |
 end
 ```
 
-<br>
 <br>
 
 ### Using Symbols as Keys:

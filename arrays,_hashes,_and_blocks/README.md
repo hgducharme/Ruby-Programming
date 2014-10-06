@@ -1,5 +1,5 @@
-**1. Arrays**
+# Data Structures
 
-**2. Hashes**
+<br>
 
-**3. Blocks**
+This chapter will cover the different ways to store data in Ruby. These different ways include Arrays, Hashes, and Blocks.

@@ -15,7 +15,6 @@ end
 ```
 
 <br>
-<br>
 
 ### Class Names:
 
@@ -134,7 +133,6 @@ eric.greeting
 # This would work, because Eric is an actual instance of the class Person
 ```
 
-<br>
 <br>
 
 ### Real-World Classes:

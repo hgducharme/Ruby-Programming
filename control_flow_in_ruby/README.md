@@ -1,6 +1,7 @@
 # Control Flow in Ruby
 
 <br>
+<br>
 
 ## `if` Statements:
 
@@ -22,8 +23,6 @@ Using the example above, it would look like this:
 puts "Four is less than five" if 4 < 5
 ```
 
-<br>
-<br>
 <br>
 
 ## `if/else` Statements:
@@ -52,7 +51,6 @@ puts 4 < 5 ? "Four is less than five" : "Four is not less than five"
 ```
 
 <br>
-<br>
 
 ## `elsif` Statements
 
@@ -70,7 +68,6 @@ else
 end
 ```
 
-<br>
 <br>
 
 ## `unless` Statements
