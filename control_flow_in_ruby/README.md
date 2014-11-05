@@ -108,7 +108,7 @@ The syntax looks like this:
 puts "What is your favorite color?"
 color = gets.chomp
 
-switch color
+case color
     when ‘blue’
         puts "Blue"
     when ‘red’
