@@ -130,7 +130,7 @@ However, there is a simpler way to do it, if the conditions don’t have a big b
 puts "What is your favorite color?"
 color = gets.chomp
 
-switch color
+case color
     when ‘blue’ then puts “Blue”
     when ‘red’ then puts “Red”
     when ‘green’ then puts “Green”
