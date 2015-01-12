@@ -9,7 +9,6 @@
    * [Blocks](arrays,_hashes,_and_blocks/blocks.md)
 * [Control Flow in Ruby](control_flow_in_ruby/README.md)
 * [Ruby Methods](ruby_methods/README.md)
-   * [Documentation](ruby_methods/documentation.md)
 * [Classes](classes/README.md)
 * [Procs & Lambdas](procs_&_lambdas/README.md)
 * [Modules](modules/README.md)
