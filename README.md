@@ -8,4 +8,8 @@ This book will cover the very basics of Ruby, and help introduce the Ruby syntax
 
 **Contributing**
 
-This book is open source, feel free to [visit the repository](https://github.com/hgducharme/GitBooks/tree/master/RubyProgramming) and contribute in any way you wish. If you notice any typos/errors, you can either open an issue, or make a pull request and help make the book better for those reading it after you. If you wish to help add to this book to make it better, please feel free to do so.
+This book is open source, so please feel free to visit the github repository to help contribute! If you notice any typos or errors in this book, you can fork the repo and open a pull request with the new and improved changes, or simply just open a new issue. Any contribution is greatly appreciated and it will help make this book better for those reading it after you!
+
+**Liscense**
+
+This book is currently licensed under a Creative Commons license. For more information, read more on [the official Creative Commons website](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
