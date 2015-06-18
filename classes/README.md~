@@ -36,7 +36,7 @@ class Car
  end
  end
 
-time_machine = Car.new(Delorean, DMC-12)
+time_machine = Car.new(DMC-12, DeLorean)
 # ==> This is the DeLorean from Back to The Future
 ```
 
