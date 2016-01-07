@@ -36,7 +36,7 @@ class Car
  end
  end
 
-time_machine = Car.new(Delorean, DMC-12)
+time_machine = Car.new(DMC-12, DeLorean)
 # ==> This is the DeLorean from Back to The Future
 ```
 
@@ -168,7 +168,7 @@ class SubClass < BaseClass
 end
 ```
 
-Where `SubClass` is the new class that is being made, and the `BaseClass` is the class from which it is inheriting its methods and attributes from. You can read `<` as "inheriting from".
+Where `InheritingClass` is the new class that is being made, and the `BaseClass` is the class from which it is inheriting its methods and attributes from. You can read `<` as "inheriting from".
 
 <br>
 
