@@ -168,7 +168,7 @@ class SubClass < BaseClass
 end
 ```
 
-Where `InheritingClass` is the new class that is being made, and the `BaseClass` is the class from which it is inheriting its methods and attributes from. You can read `<` as "inheriting from".
+Where `SubClass` is the new class that is being made, and the `BaseClass` is the class from which it is inheriting its methods and attributes from. You can read `<` as "inheriting from".
 
 <br>
 
