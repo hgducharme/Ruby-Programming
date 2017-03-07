@@ -72,7 +72,7 @@ class Person
     @@people_count += 1
   end
 
-  def number_of_instances
+  def self.number_of_instances
     return @@people_count
   end
 end
