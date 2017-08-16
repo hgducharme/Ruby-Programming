@@ -5,7 +5,7 @@
 
 ### General Syntax:
 
-Blocks are a set of code that explains what to do. It is nothing more than a set of instructions. Blocks are on of the only things in Ruby that is not an object. Since blocks are not objects, they can not be stored to variables and don’t have all the powers that other objects have. Blocks are similar to anonymous functions in JavaScript and lambdas in Python. Blocks can be defined with either the key words: `do` and `end`, or with curly braces `{ }`.
+Blocks are a set of code that explains what to do. It is nothing more than a set of instructions. Blocks are one of the only things in Ruby that is not an object. Since blocks are not objects, they can not be stored to variables and don’t have all the powers that other objects have. Blocks are similar to anonymous functions in JavaScript and lambdas in Python. Blocks can be defined with either the key words: `do` and `end`, or with curly braces `{ }`.
 
 For example:
 
@@ -25,7 +25,7 @@ end
 
 ### Passing Blocks to Methods:
 
-Passing a block to a method is a great way of abstracting certain tasks from the method and defining those tasks whenwe call a method. Abstraction is an important idea in computer science, and you can think of it as meaning "making something simpler.”
+Passing a block to a method is a great way of abstracting certain tasks from the method and defining those tasks when we call a method. Abstraction is an important idea in computer science, and you can think of it as meaning "making something simpler.”
 
 For example:
 

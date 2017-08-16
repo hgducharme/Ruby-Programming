@@ -42,7 +42,7 @@ end
 
 1. Sets variable `i` equal to one
 2. While `i` is less than or equal to 50, do the block of code (will print numbers 1 -50)
-3. Display the number on the console`
+3. Display the number on the console
 4. Increment `i` by one every time, that way the loop will end at some point
 5. Ends instructions for the loop
 
@@ -73,7 +73,7 @@ loop do
     i += 1
     break if i > 50
 end
-````
+```
 
 1. Sets variable `i` equal to one
 2. Create a `loop`, and run the block of code

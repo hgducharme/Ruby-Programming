@@ -10,7 +10,7 @@ A module is like a toolbox that contains a set of methods and constants. Modules
 
 ### Creating a Module:
 
-Creating a module is almost identical to creating a class. Like class names, module names are written in CapitilizedCamelCase as well.
+Creating a module is almost identical to creating a class. Like class names, module names are written in CapitalizedCamelCase as well.
 
 It looks like this:
 
@@ -30,13 +30,13 @@ One of the main purposes of a module is to separate methods and constants into n
 
 ### Importing External Modules:
 
-Some modules, like `MATH`, are already present in the interpreter. However, sometimes you will need to be explicitly imported. We can do this using the require keyword. Like so: `require ‘module’`. We can do more than just require a module, we can also `include` it. Any class that `include`’s a certain module can use that module’s methods and constants. You use include like so: `include Math`. Notice how it doesn’t use the quotes to call on the module. Also, whenever you include a module inside a class, that class no longer has to use the scope resolution operator (`::`) to define the module to look inside. Instead of writing `Math::PI`, you can just write `PI`.
+Some modules, like `MATH`, are already present in the interpreter. However, sometimes you will need to be explicitly imported. We can do this using the require keyword. Like so: `require ‘module’`. We can do more than just require a module, we can also `include` it. Any class that includes a certain module can use that module’s methods and constants. You use include like so: `include Math`. Notice how it doesn’t use the quotes to call on the module. Also, whenever you include a module inside a class, that class no longer has to use the scope resolution operator (`::`) to define the module to look inside. Instead of writing `Math::PI`, you can just write `PI`.
 
 <br>
 
 ### Modules & Classes:
 
-Whenever a module is used to mix in additional information and behavior into a class, it is called a mixin. Mixins allow us to customize a class without having to write additional code.
+Whenever a module is used to mix additional information and behavior into a class, it is called a mixin. Mixins allow us to customize a class without having to write additional code.
 
 Example:
 
@@ -79,7 +79,7 @@ Notice how we define the `jump` method inside the `Action` module, the we `inclu
 
 ### Extending Include:
 
-The `include` keyword only mixes that modules methods and information in at the instance level, to where only instances of that particular class can use the information. However, the `extend` keyword mixes the modules methods into the class level. This means the class itself can use that module’s information, as opposed to just instances of that class.
+The `include` keyword only mixes in that module's methods and information at the instance level, to where only instances of that particular class can use the information. However, the `extend` keyword mixes the modules methods into the class level. This means the class itself can use that module’s information, as opposed to just instances of that class.
 
 For example:
 

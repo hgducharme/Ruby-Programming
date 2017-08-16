@@ -5,7 +5,7 @@
 
 ## `if` Statements:
 
-`if` statements takes an expression, and runs it to see if it is true or false. If the expression is `true`, then it runs the block of code. If the expression is `false`, then it moves onto the next piece of instructions.
+An `if` statement takes an expression, and runs it to see if it is true or false. If the expression is `true`, then it runs the block of code. If the expression is `false`, then it moves onto the next piece of instruction.
 
 An example:
 
@@ -15,7 +15,7 @@ if 4 < 5
 end
 ```
 
-If an `if` statement is short, and only requires one line, then you can use a simpler syntax. The statement has a syntax like this: `expression if boolean`. It would be said like so: Do this expression if the boolean is true or false (which ever one you put). The order they go in, is extremely important! If they’re not in that order, it won’t work.
+If an `if` statement is short, and only requires one line, then you can use a simpler syntax. The statement has a syntax like this: `expression if boolean`. It would be said like so: Do this expression if the boolean is true or false (which ever one you put). The order they go in is extremely important! If they’re not in that order, it won’t work.
 
 Using the example above, it would look like this:
 
@@ -27,7 +27,7 @@ puts "Four is less than five" if 4 < 5
 
 ## `if/else` Statements:
 
-The partner to the `if` statement, is the `else` statement. An `if/else` statement says to ruby: “if this expression is true, run this code block; otherwise, run the code block after the `else`.
+The partner to the `if` statement, is the `else` statement. An `if/else` statement says to ruby: If this expression is true, run this code block; otherwise, run the code block after the `else`.
 
 For example:
 
@@ -42,7 +42,7 @@ else
 end
 ```
 
-The more concise version of the `if/else` statement is called the ternary conditional expression. It is called ternary because it takes three arguments: a boolean, an expression to evaluate if the statement is true, and an expression for if the statement is false. It has syntax which looks like this: `boolean ? Do this if true: Do this if false`. It would be said like so: Evaluate this boolean, if it’s true do the first expression, if it’s false do the second expression. The order they go in is extremely important! If they’re not in that order, it won’t work.
+The more concise version of the `if/else` statement is called the ternary conditional expression. It is called ternary because it takes three arguments: a boolean, an expression to evaluate if the statement is true, and an expression for if the statement is false. It has syntax which looks like this: `boolean ? Do this if true : Do this if false`. It would be said like so: Evaluate this boolean, if it’s true do the first expression, if it’s false do the second expression. The order they go in is extremely important! If they’re not in that order, it won’t work.
 
 For example:
 
