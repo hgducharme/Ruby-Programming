@@ -9,7 +9,7 @@ A proc is a saved block we can use over and over again.
 
 ### General Syntax:
 
-Since blocks are not objects, and cannot be stored in variables along with all the other powers that objects have, we have procs to fill in this role. Procs are sort of like a “saved block”. Just like you can give a bit of code a name and turn it into a method, you can give blocks a name and turn it into a proc. With a block, you have to write your code out every time you use it. However, with procs, you can store this block code, write it only once, and then use it multiple times!
+Since blocks are not objects, and cannot be stored in variables along with all the other powers that objects have, we have procs to fill in this role. Procs are sort of like a “saved block”. Just like you can give a bit of code a name and turn it into a method, you can give blocks a name and turn it into a proc. With a block, you have to write your code out every time you use it. However, with procs, you can store this block of code, write it only once, and then use it multiple times!
 
 <br>
 
@@ -90,19 +90,19 @@ Like procs, lambdas are objects too. With the exception of a little syntax and a
 For example:
 
 ```ruby
-strings = ["leonardo", "donatello", "raphel", "michaelangelo"]
+strings = ["leonardo", "donatello", "raphael", "michelangelo"]
 
 symbolize = lambda { |name| name.to_sym } nil
 strings.collect(&symbolize)
 
-# ==> [:leonardo, :donatello, :raphel, :michaelangelo]
+# ==> [:leonardo, :donatello, :raphael, :michelangelo]
 ```
 
 <br>
 
 ### Lambdas vs. Procs:
 
-There are not many differences between lambdas and procs. However, there are a few: First, lambdas checks the number of arguments passed to it, while procs do not. This means that lambdas will throw in an error if you pass in the wrong number of arguments, and a proc will just ignore any unexpected arguments and assign `nil` to any that are missing. Second, when a lambda returns a value, it sends the control back to the calling method. When procs return a value, they do it immediately without going back to the calling method.
+There are not many differences between lambdas and procs. However, there are a few: First, lambdas checks the number of arguments passed to it, while procs do not. This means that lambdas will throw an error if you pass in the wrong number of arguments, and a proc will just ignore any unexpected arguments and assign `nil` to any that are missing. Second, when a lambda returns a value, it sends the control back to the calling method. When procs return a value, they do it immediately without going back to the calling method.
 
 An example between procs & lambdas:
 

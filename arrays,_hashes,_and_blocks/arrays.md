@@ -40,7 +40,7 @@ s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
 # if we just wanted to access "swiss", we would do this:
 s[0][1]
 # We access "s", then we access the array in the 0th position,
-then the element in the 1nth position
+# then the element in the 1nth position
 
 
 # if we wanted to print out every element, we would do this:

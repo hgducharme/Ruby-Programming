@@ -18,7 +18,7 @@ It starts with the keyword `def`, which is short for define. Methods have three 
 
 1. The Header - Includes the `def` keyword, the name of the method, and any arguments the method takes
 2. The Body - This is the code block that will be run. It describes the procedures the method carries out
-3. End - The method is then closed with the keyword end
+3. End - The method is then closed with the keyword `end`
 
 
 
@@ -34,13 +34,13 @@ end
 
 ### Calling a method:
 
-Calling a method all you have to do is type in the name of the method. Nothing else. So for the example above, if we wanted to call that method, we would do this: `method_name` on a new line inside the file. That’s all that is needed to call the method, is to just type in the name of it on a new line, and then it will call the method and proceed with the instructions for that method.
+To call a method all you have to do is type in the name of the method. Nothing else. So for the example above, if we wanted to call that method, we would do this: `method_name` on a new line inside the file. All that is needed to call the method is to just type in the name of it on a new line, and then it will call the method and proceed with the instructions for that method.
 
 <br>
 
 ### Parameters & arguments:
 
-If a method takes arguments, we say that it accepts  or expects those arguments. The argument is the actual piece of code you put between the methods parenthesis when you call it. The parameter is the name that you put between the parenthesis when you define it.
+If a method takes arguments, we say that it accepts  or expects those arguments. The argument is the actual piece of code you put between the method's parenthesis when you call it. The parameter is the name that you put between the parenthesis when you define it.
 
 An example would look like this:
 
@@ -60,7 +60,7 @@ In the example above, we gave the method square a parameter of n, and when we ca
 
 ### Splat Arguments:
 
-On regular methods, you never really know exactly what argument you’re going to get, so you use the parameter as a temporary placeholder. However, what if you don’t know how many arguments you’re going to get? Then you use the splat argument: ( * ). You place your splat argument then follow it with the parameter you give it. It signals to ruby: “Hey Ruby, I don’t know how many arguments there are about to be, but it could be more than one."
+On regular methods, you never really know exactly what argument you’re going to get, so you use the parameter as a temporary placeholder. However, what if you don’t know how many arguments you’re going to get? Then you use the splat argument: `*`. You place your splat argument then follow it with the parameter you give it. It signals to ruby: “Hey Ruby, I don’t know how many arguments there are about to be, but it could be more than one."
 
 For example:
 

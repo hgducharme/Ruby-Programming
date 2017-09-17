@@ -18,13 +18,13 @@ end
 
 ### Class Names:
 
-Class names start with an uppercase letter and use camelCase instead of snake_case. In this example, we tell ruby that we can’t to create a new class, then we put the `ClassName` to give the class a name, and then we insert whatever code inside that class. `ClassName` is now a class, just like `“Hello!”`, is a `String` (which is a class) and `4` is a `Fixnum` (which is also a class).
+Class names start with an uppercase letter and use camelCase instead of snake_case. In this example, we tell ruby that we want to create a new class, then we put the `ClassName` to give the class a name, and then we insert whatever code inside that class. `ClassName` is now a class, just like `“Hello!”`, is a `String` (which is a class) and `4` is a `Fixnum` (which is also a class).
 
 <br>
 
 ### Initialize Method & Creating a Class:
 
-When creating a class, you want to create a method called `initialize`. When you create a new instance, it will run the `initialize` method, and execute any code in that method. `initialize`. takes however many arguments you tell it to take. In ruby, we use the `@` operator before a variable to signify that it is an instance variable. This means that the variable is attached to the instance of the class. They are unique to whatever instance is
+When creating a class, you want to create a method called `initialize`. When you create a new instance, it will run the `initialize` method, and execute any code in that method. `initialize` takes however many arguments you tell it to take. In ruby, we use the `@` operator before a variable to signify that it is an instance variable. This means that the variable is attached to the instance of the class. They are unique to each instance.
 
 For example:
 
@@ -52,7 +52,7 @@ Creating a new instance of a class looks like this: `me = Person.new(“Eric”)
 
 ### Different Kinds of Variables:
 
-Another important aspect of Ruby classes is scope. The scope of a variable is the context in which it’s visible to the program. Not all variables are accessible to all parts of the program. When dealing with classes, you can have variables that accessible to all parts of the program (global variables), variables that are only available to certain methods (local variables), and variables that are only available to a particular instance of a class (instance variables). The same goes for methods, some are available everywhere, some can only be accessible to members of that class, and some are only accessible to a particular instance.
+Another important aspect of Ruby classes is scope. The scope of a variable is the context in which it’s visible to the program. Not all variables are accessible to all parts of the program. When dealing with classes, you can have variables that are accessible to all parts of the program (global variables), variables that are only available to certain methods (local variables), and variables that are only available to a particular instance of a class (instance variables). The same goes for methods, some are available everywhere, some can only be accessible to members of that class, and some are only accessible to a particular instance.
 
 <br>
 
@@ -174,7 +174,7 @@ Where `SubClass` is the new class that is being made, and the `BaseClass` is the
 
 ### Overriding Inheritance:
 
-Sometimes you will want one class that inherits from another to not only take on the parent’s methods and attributes, but to also override one or more of them. For example: You might have an `Email` class that inherits from the `Message` class. Both classes will have a `send` method, but sending an email might require different protocols that `Message` doesn’t have. Instead of just creating a new method in your `Email` class specifically for that, you can just create a method named `send` and it will override the `send` method that it inherited from  `Message`.  Also, sometimes you will be working inside a `sub-class` and realize you have overwritten a method or attribute from its `super-class` that you actually need. No problem! You can directly access a `super-class`’s methods or attributes by using Ruby’s built in `super` keyword. When you call the `super` keyword form inside a `sub-class` method or attribute, it will tell Ruby to look in the `super-class` and find a method or attribute with the same name as the one from which `super` is called. Ruby will then use the `super-class` method/attribute instead.
+Sometimes you will want one class that inherits from another to not only take on the parent’s methods and attributes, but to also override one or more of them. For example: You might have an `Email` class that inherits from the `Message` class. Both classes will have a `send` method, but sending an email might require different protocols that `Message` doesn’t have. Instead of creating a new method in your `Email` class specifically for that, you can just create a method named `send` and it will override the `send` method that it inherited from  `Message`.  Also, sometimes you will be working inside a `sub-class` and realize you have overwritten a method or attribute from its `super-class` that you actually need. No problem! You can directly access a `super-class`’s methods or attributes by using Ruby’s built in `super` keyword. When you call the `super` keyword from inside a `sub-class` method or attribute, it will tell Ruby to look in the `super-class` and find a method or attribute with the same name as the one from which `super` is called. Ruby will then use the `super-class` method/attribute instead.
 
 <br>
 
