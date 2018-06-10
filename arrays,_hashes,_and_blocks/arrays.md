@@ -29,7 +29,7 @@ Adding to an array can be done in two ways: The first looks like this: `example_
 
 ### Iterating over Arrays:
 
-Iterating over arrays uses syntax that looks like this: `example_array { |i| puts i }`
+Iterating over arrays uses syntax that looks like this: `example_array.each { |i| puts i }`
 
 Iterating over multi-dimensional arrays is a little bit different:
 
